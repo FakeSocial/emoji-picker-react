@@ -15,9 +15,11 @@ export {
   SkinTones,
   Theme,
   Categories,
-  EmojiClickData,
   SuggestionMode,
   SkinTonePickerLocation,
+} from './types/exposedTypes';
+export type {
+  EmojiClickData,
   CategoryIcons,
   CategoryConfig,
 } from './types/exposedTypes';
